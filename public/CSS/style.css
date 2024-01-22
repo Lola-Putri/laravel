@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 9999;
+    background-color: #F0F9F6;
+    height: 100vh;
+  
+}
+.background{
+    z-index: -1;
+    position: absolute;
+}
+.background2{
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+.antrismart{
+    color: #41545E;
+    text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.logo-image img{
+    width: 80px;
+    height: 80px;
+}
+
+.welcome{
+    color: #779A8A;
+}
+
+.daftar-main{
+    opacity: 1;
+    background: #FFF;
+    width: 1200px;
+    height: 480px;
+    align-content: center;
+    margin: auto;
+     
+}  
+
+.dashboard-main{
+    opacity: 1;
+    background: #FFF;
+    width: 1200px;
+    height: 480px;
+    align-content: center;
+    margin: auto;
+     position: relative;
+} 
+
+.welcome-text{
+    color: #779A8A;
+    font-weight: bold;
+    font-size:30px;
+}
+.deskripsi{
+    color: #779A8A;
+    font-size: large;
+    font-weight: 500;
+   
+}
+.instruksi{
+    color: #779A8A;
+    font-size: medium;
+    
+}
+.button{
+    border-radius: 4px;
+    background: #A4C3B2;
+    box-shadow: 0px 7px 21px 0px rgba(37, 44, 97, 0.20), 0px 3px 8px 0px rgba(136, 144, 194, 0.25);
+    font-weight: 500;
+    color: #FFF;
+    padding: 6px 16px;
+    border-color: #A4C3B2;  
+    
+}
+.box{
+    border-radius: 8px;
+    background: #CCE3DE;
+    width: 510px;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.gambar{
+    width: 300px;
+    height: 300px;
+    
+}
+.form{
+    font-weight: bold;
+    color: #6B9080;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.form-regis{
+    position: relative;
+}
+
+.form-regis a{
+    text-decoration: none!important;
+}
+
+.form-regis label{
+    color: #6B9080;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+.form-regis input, 
+.form-regis select{
+    border:none ;
+    border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.dropdown-ico{
+    position: absolute;
+    top: 324px;
+    right: 22px;
+}
+.background-page2{
+    z-index: -1;
+    position: absolute;
+}
+.antrian a{
+    color: #7E9F90;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #455A64;
+}
+.tujuan{
+    font-weight: 600;
+    font-size: 36px;
+    color: #6B9080;
+}
+.box-loket{
+    width: 294px;
+    height: 351px;
+    border-radius: 104px;
+    background: rgba(204, 227, 222, 0.76);
+    box-shadow: 0px 4px 4px 0px #6B9080;
+}
