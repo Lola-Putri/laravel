@@ -33,8 +33,7 @@
                   <a class="d-flex justify-content-center" href="/loket"><button type="button" class="btn btn-secondary button">Kirim</button></a>
               </div>
             </div>
-        </div>
-        
-        
+        </div>  
         
 </div>
+@endsection

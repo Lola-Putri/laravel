@@ -1,4 +1,4 @@
-<img src="Image/page2.png" class="background-page2">
+<img src="Image/ambil-antrian.png" class="background-page3">
 <nav class="">
     <ul class="nav p-3 justify-content-between">
         <li class="logo-image">
