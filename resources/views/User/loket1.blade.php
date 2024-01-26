@@ -2,8 +2,8 @@
 @section('container')
 @include('partials.navbar3')
 
-<div class="row d-flex">
-    <div class="col-md-12 d-flex w-100 flex-column">
+<div class="row ">
+    <div class="col-md-12 d-flex justify-content-center align-items-center w-100 flex-column mt-5">
         <div class="row d-flex justify-content-center nama-loket1 mt-4 ">
             Poliklinik Umum
        </div>
