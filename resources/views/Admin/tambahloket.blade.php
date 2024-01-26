@@ -6,8 +6,8 @@
     <div class="col-md-3">
         @include('partials.sidebar')
     </div>
-    <div class="col-md-9 d-flex justify-content-center align-items-start flex-column">
-        <div class="row">
+    <div style="height: 100vh" class="col-md-9 d-flex justify-content-center align-items-start flex-column">
+        <div  class="row">
             <div class="tabel-que">
                 <table class="table table-striped tabel-panggil rounded text-center">
                 <thead>
@@ -25,49 +25,49 @@
                     <td>Loket 1</td>
                     <td>30</td>
                     <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Lihat</button></td>
-                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Panggil</button>
-                        <button type="button" class="btn btn-secondary btn-sm btn-panggilulang">Panggil Ulang</button></td>
+                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Edit</button>
+                        <button type="button" class="btn btn-secondary btn-sm btn-panggilulang">Hapus</button></td>
         
                   </tr>
-                  <tr class="">
+                  <tr>
                     <th scope="row">2</th>
                     <td>Loket 2</td>
-                    <td>34</td>
-                    <td>B003</td>
-                    <td>4</td>
-                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Panggil</button></td>
-                    <td><button type="button" class="btn btn-secondary btn-sm btn-panggilulang">Panggil Ulang</button></td>
+                    <td>30</td>
+                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Lihat</button></td>
+                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Edit</button>
+                        <button type="button" class="btn btn-secondary btn-sm btn-panggilulang">Hapus</button></td>
                   </tr>
                
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Loket 3</td>
-                    <td>25</td>
-                    <td>C003</td>
-                    <td>8</td>
-                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Panggil</button></td>
-                    <td><button type="button" class="btn btn-secondary btn-sm btn-panggilulang">Panggil Ulang</button></td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td>Loket 4</td>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Loket 3</td>
                     <td>40</td>
-                    <td>D003</td>
-                    <td>9</td>
-                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Panggil</button></td>
-                    <td><button type="button" class="btn btn-secondary btn-sm btn-panggilulang">Panggil Ulang</button></td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td>Loket 5</td>
-                    <td>34</td>
-                    <td>B003</td>
-                    <td>4</td>
-                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Panggil</button></td>
-                    <td><button type="button" class="btn btn-secondary btn-sm btn-panggilulang">Panggil Ulang</button></td>
-                </tr>
+                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Lihat</button></td>
+                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Edit</button>
+                        <button type="button" class="btn btn-secondary btn-sm btn-panggilulang">Hapus</button></td>
+        
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Loket 4</td>
+                    <td>67</td>
+                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Lihat</button></td>
+                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Edit</button>
+                        <button type="button" class="btn btn-secondary btn-sm btn-panggilulang">Hapus</button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Loket 5</td>
+                    <td>58</td>
+                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Lihat</button></td>
+                    <td><button type="button" class="btn btn-secondary btn-panggil btn-sm">Edit</button>
+                        <button type="button" class="btn btn-secondary btn-sm btn-panggilulang">Hapus</button></td>
+                  </tr>
             </tbody>
               </table>
+              <div class="row d-flex justify-content-center ">
+                <a href="/tambahloket1"><button type="button" class="btn btn-secondary btn-addloket">Tambah Loket</button></a>
+            </div>
             </div>
         </div>
     </div>

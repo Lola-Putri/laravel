@@ -6,7 +6,7 @@
     <div class="col-md-3">
         @include('partials.sidebar')
     </div>
-    <div class="col-md-9 d-flex justify-content-start align-items-center">
+    <div style="height: 100vh" class="col-md-9 d-flex justify-content-start align-items-center">
         <div class="row">
             <div class="tabel-que">
                 <table class="table table-striped tabel-panggil rounded">
