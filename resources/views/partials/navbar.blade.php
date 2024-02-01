@@ -3,10 +3,10 @@
 <nav class="">
     <ul class="nav p-3 justify-content-between">
         <li class="logo-image">
-          <img src="Image/Logocontoh.png" />
+            <img src="Image/Logocontoh.png" />
         </li>
         <li class="antrismart">
-          <a><strong>AntriSmart</strong></a>
+            <a><strong>AntriSmart</strong></a>
         </li>
-      </ul>
+    </ul>
 </nav>

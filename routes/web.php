@@ -37,9 +37,6 @@ Route::get('/Login', function () {
 Route::get('/instansi', function () {
     return view('Admin.instansi');
 });
-Route::get('/tambahantrian', function () {
-    return view('Admin.tambahantrian');
-});
 Route::get('/panggil', function () {
     return view('Admin.panggil');
 });
