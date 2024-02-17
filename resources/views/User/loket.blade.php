@@ -14,7 +14,7 @@
         }
     </style>
 
-    <div style="height: 100vh" class="col-md-12 d-flex justify-content-center align-items-center flex-column">
+    <div class="col-md-12 loket-main d-flex justify-content-center align-items-center flex-column">
 
         <div class="row tujuan d-flex justify-content-center align-items-center mb-4">
             Pilih Tujuan Anda

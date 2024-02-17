@@ -1,7 +1,9 @@
 @media (max-width:480px) {
 
     /* halaman daftar */
-
+    body{
+        overflow: auto;
+    }
     .background{
         z-index: -1;
         position: absolute;
@@ -154,11 +156,254 @@
         color: #6B9080;
     }
     .box-loket{
-        width: 294px;
-        height: 351px;
+        width: 225px;
+        height: 279px;
         border-radius: 104px;
         background: rgba(204, 227, 222, 0.76);
         box-shadow: 0px 4px 4px 0px #6B9080;
     }
+    .background-page2{
+        z-index: -1;
+        position: absolute;
+        display: none;
+    }
+    .antrian a{
+        color: #7E9F90;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .nav-link:focus, .nav-link:hover {
+        color: #455A64;
+    }
+    .tujuan{
+        font-weight: 600;
+        font-size: 30px;
+        color: #6B9080;
+        margin-top: 75px;
+    }
+    .image-loket1{
+        width: 140px;
+        height: 96px;
+    }
+    .text-loket1{
+        color: #6B9080;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .dropdown-center, .lok-1, .dropdown-item, .dropdown-item:hover{
+        color:#6B9080;
+    }
+    .dropdown-toggle{
+        font-weight:500;
+        color: #6B9080;
+        font-size: 17px;
+    }
+    .dropdown-center .btn{
+        border: none;
+    }
 
+    /* halaman daftar antrian */
+
+    .background-page3{
+        z-index: -1;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+    }
+    .box-loket1{
+        border-radius: 12px;
+        background: #779A8A;
+        width: 327px;
+        height: 138px;
+    }
+    .nama-loket1{
+        color: #6B9080;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .tanggal{
+        color: #6B9080;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .box-antrian1{
+        width: 300px;
+        height: 150px;
+        border-radius: 12px;
+        background: #779A8A;
+        box-shadow: 0px 5px 4px 0px #6B9080;
+        position: relative;
+        margin-left: 15px;
+    
+    }
+    .box-sub-antrian1{
+        border-radius: 2px;
+        background: #D6EAE4;
+        box-shadow: 0px 5px 4px 0px #6B9080;
+        width: 217px;
+        height: 58px;
+        position: absolute;
+        top: -25px;
+        color: #6B9080;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .text-box1{
+        color: #F6FFF8;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .text-box2{
+        color: #F6FFF8;
+        font-size: 40px;
+        font-weight: 700;
+        display: contents;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-page4{
+        z-index: -1;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+    }
+    .box-data{
+        border-radius: 12px;
+        background: #779A8A;
+        width: 455px;
+        height: 430px;
+    }
+    .box-nomor{
+        border-radius: 2px;
+        background: #D6EAE4;
+        box-shadow: 0px 5px 4px 0px #6B9080;
+        width: 217px;
+        height: 58px;
+        color: #6B9080;
+        font-size: 19px;
+        font-weight: 600;
+        position: absolute;
+        top: 140px;
+    }
+    .text-boxall{
+        color: #F6FFF8;
+        font-size: 20px;
+        font-weight: 400;
+        height: 10px;
+    }
+    .text-boxall1{
+        color: #F6FFF8;
+        font-size: 16px;
+        font-weight: 400;
+        height: 0px;
+    }
+    .loket-main{
+        height: auto;
+       
+    }
+    .image-loket1{
+        width: 190px;
+        height: 145px;
+    }
+    .bg-loket2{
+        z-index: -1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 146px;
+        height: 111px;
+    }
+    .bg-loket1{
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0 ;
+        width: 85px;
+        height: 102px;
+    }
+    .bg-loket3{
+        z-index: -1;
+        position: absolute;
+        left: 12px;
+        top:371px;
+        width: 405px;
+        height: 257px;
+    }
+    .line-kirim1{
+        width: 100px;
+        position: absolute;
+        bottom: 66px;
+        right: 20px;
+    }
+    .line-kirim2{
+        width: 100px;
+        position: absolute;
+        bottom: 66px;
+        left: 20px;
+    }
+    .antrian a{
+        color: #7E9F90;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .nav-item1{
+        margin-right: 0!important;
+        
+        
+    }
+    .nav-item2{
+        margin-left: 0!important;
+    
+    }
+    
+    /* Halaman data diri */
+    .box-nomor{
+        border-radius: 2px;
+        background: #D6EAE4;
+        box-shadow: 0px 5px 4px 0px #6B9080;
+        width: 217px;
+        height: 58px;
+        color: #6B9080;
+        font-size: 19px;
+        font-weight: 600;
+        position: absolute;
+        top: -29px;
+    }
+    .text-boxall{
+        color: #F6FFF8;
+        font-size: 20px;
+        font-weight: 400;
+        height: 10px;
+    }
+    .text-boxall1{
+        color: #F6FFF8;
+        font-size: 16px;
+        font-weight: 400;
+        height: 0px;
+    }
+    .box-data{
+        border-radius: 12px;
+        background: #779A8A;
+        width: 358px;
+        height: 390px;
+        position: absolute;
+        top: 218px;
+        left: 29px;
+    }
+    .kotak-loket{
+        z-index: -1;
+        position: absolute;
+        top: 555px;
+        left: 13px;
+        width: 391px;
+        height: 138px;
+    }
+    
 }

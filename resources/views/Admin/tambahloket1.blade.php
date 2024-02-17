@@ -43,7 +43,7 @@
                             placeholder="Masukkan jumlah antrian">
                     </div>
                     <div class="mb-3">
-                        <label for="formFile" class="form-label">Pilih Logo</label>
+                        <label for="formFile" class="form-label">Pilih Gambar</label>
                         <input class="form-control form-input1 mb-3" type="file" id="formFile">
                     </div>
                     <div class="row ">

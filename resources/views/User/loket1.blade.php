@@ -11,7 +11,7 @@
                 Selasa, 16 Januari 2024
             </div>
         </div>
-        <div class="row box-antrian1 rounded mx-auto d-flex justify-content-center mt-2">
+        <div class="row box-antrian1 mx-auto d-flex justify-content-center mt-2">
             <div class="text-box1 d-flex justify-content-center align-items-center">
                 A001
             </div>
@@ -46,14 +46,14 @@
     </div>
     <div class="row d-flex justify-content-evenly mt-5">
         <div class="col-md-4 d-flex align-items-center justify-content-end mt-2">
-            <img src="Image/line-kirim.png">
+            <img src="Image/line-kirim.png" class="line-kirim1">
         </div>
         <div class="col-md-4 d-flex-justify-content-center">
             <a class="d-flex justify-content-center" href="/data"><button type="button"
                     class="btn btn-secondary button ">Daftar</button></a>
         </div>
         <div class="col-md-4 d-flex align-items-center justify-content-start mt-2">
-            <img src="Image/line-kirim.png">
+            <img src="Image/line-kirim.png" class="line-kirim2">
         </div>
     </div>
 

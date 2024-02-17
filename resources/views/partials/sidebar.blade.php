@@ -22,14 +22,6 @@
             </a>
         </li>
         <li>
-            <a href="/panggil" class="nav-link text-white {{ Request::is('panggil') ? 'active' : '' }}">
-                <svg class="bi me-2" width="16" height="16">
-                    <use xlink:href="/panggil"></use>
-                </svg>
-                Panggil Antrian
-            </a>
-        </li>
-        <li>
             <a href="/total" class="nav-link text-white {{ Request::is('total') ? 'active' : '' }}">
                 <svg class="bi me-2" width="16" height="16">
                     <use xlink:href="/total"></use>

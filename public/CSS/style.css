@@ -338,9 +338,41 @@ font-weight: 500;
     font-weight: 500;
 }
 
-
-
-
+.loket-main{
+    height: 100vh;
+    overflow: hidden;
+}
+.bg-loket2{
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  
+}
+.bg-loket1{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0 ;
+}
+.bg-loket3{
+    z-index: -1;
+    position: absolute;
+    left: 300px;
+    top:200px;
+}
+.line-kirim1{
+    width: 200px;
+}
+.line-kirim2{
+    width: 200px;
+}
+.kotak-loket{
+    z-index: -1;
+    position: absolute;
+    top: 394px;
+    left: 264px;
+}
 
 
 
@@ -546,4 +578,30 @@ background: #A4C3B2;
 .carousel-item img {
     width: 400px;
     height: 300px;
+}
+.box-panggil1{
+    width: 364px;
+    height: 307px;
+    border-radius: 5px;
+    background: #455A64;
+}
+.text-panew{
+    color: #F6FFF8;
+    font-weight:500;
+    font-size: 28px;
+}
+.box-sub-panggil{
+    width: 280px;
+    height: 166px;
+    border-radius: 5px;
+    background: #455A64;
+}
+.sound-icon{
+    width: 51px;
+    height: 28px;
+}
+.text-panggil{
+    color: #F6FFF8;
+    font-weight: 500;
+    font-size: 36px;
 }
