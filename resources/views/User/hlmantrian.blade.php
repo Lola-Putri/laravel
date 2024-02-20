@@ -21,7 +21,20 @@
             </div>
         </div>
         <div class="col-md-6 box-kedua d-flex justify-content-center align-items-center ms-5">
-            <img src="Image/image-tunggu.png" class="image-tunggu ">
+            {{-- <img src="Image/image-tunggu.png" class="image-tunggu "> --}}
+            <video id="myVideo" width="500" height="420" muted>
+                <source src="{{ asset('video/video-contoh.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <script>
+                var myVideo = document.getElementById("myVideo");
+                myVideo.addEventListener('ended', function() {
+                    myVideo.currentTime = 0;
+                    myVideo.play();
+                });
+                myVideo.play();
+            </script>
         </div>
     </div>
     <div class="row d-flex justify-content-center mt-4 gap-5">

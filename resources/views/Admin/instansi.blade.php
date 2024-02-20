@@ -24,15 +24,19 @@
                     </div>
                     <div class="mb-1">
                         <label for="formFile" class="form-label">Pilih Gambar 1</label>
-                        <input class="form-control form-input1 mb-3" type="file" id="formFile">
+                        <input class="form-control form-input1 mb-3" type="file" id="formFile" accept="image/*">
                     </div>
                     <div class="mb-1">
                         <label for="formFile" class="form-label">Pilih Gambar 2</label>
-                        <input class="form-control form-input1 mb-3" type="file" id="formFile">
+                        <input class="form-control form-input1 mb-3" type="file" id="formFile" accept="image/*">
                     </div>
                     <div class="mb-1">
                         <label for="formFile" class="form-label">Pilih Gambar 3</label>
-                        <input class="form-control form-input1 mb-3" type="file" id="formFile">
+                        <input class="form-control form-input1 mb-3" type="file" id="formFile" accept="image/*">
+                    </div>                    
+                    <div class="mb-1">
+                        <label for="formFile" class="form-label">Pilih Video</label>
+                        <input class="form-control form-input1 mb-3" type="file" id="video" name="video" accept="video/*">
                     </div>
                     <div class="row ">
                         <button type="button" class="btn btn-secondary btn-addloket">Simpan</button>

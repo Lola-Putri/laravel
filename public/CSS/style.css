@@ -304,7 +304,7 @@ a {
     border-radius: 12px;
     background: linear-gradient(112deg, #A4C3B2 27.53%, rgba(164, 195, 178, 0.00) 107.47%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 650px;
+    width: 568px;
     height: 340px;
 }
 .image-tunggu{
@@ -553,7 +553,7 @@ font-weight: 500;
 }
 .box-total1{
     width: 216px;
-height: 139px;
+    height: 139px;
 border-radius: 8px;
 background: #A4C3B2;
 }
@@ -568,7 +568,7 @@ background: #A4C3B2;
 }
 .box-instansi1{
     width: 774px;
-    height: 640px;
+    height: 700px;
     flex-shrink: 0;
     border-radius: 24px;
     background: #CDE0D5;

@@ -35,7 +35,7 @@
                             <div class="row d-flex flex-row ">
                                 <div class="col-md-12 d-flex flex-column justify-content-center mt-4 gap-2">
                                     <div class="row justify-content-center">
-                                        <button type="button" class="btn btn-secondary btn-addloket">Selanjutnya</button>
+                                        <button type="button" class="btn btn-secondary btn-addloket">Sebelumnya</button>
                                     <img src="Image/sound-icon.png" class="sound-icon">
                                     </div>
                                     <div style="display: flex" class="row justify-content-center text-panggil">
